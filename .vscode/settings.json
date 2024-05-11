@@ -1,0 +1,11 @@
+{
+    "deno.enable": true,
+	"files.eol": "\n",
+    "window.title": "🦕issue mock",
+    "workbench.colorCustomizations": {
+		"titleBar.activeBackground": "#1a2519"
+	},
+    "cSpell.words": [
+        "Hookshot"
+    ]
+}
