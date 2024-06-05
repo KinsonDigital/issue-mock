@@ -1,0 +1,5 @@
+{
+    "tasks": {
+        "start-proxy": "smee -u https://smee.io/testing -P /webhook"
+    }
+}

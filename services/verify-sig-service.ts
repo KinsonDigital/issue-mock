@@ -1,4 +1,4 @@
-import { ParamGuards } from "../param-guards.ts";
+import { ParamGuards } from "../core/param-guards.ts";
 
 /**
  * Verifies a signature against a payload of data using a secret.

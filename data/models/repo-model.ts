@@ -1,4 +1,4 @@
-import { OwnerModel } from "./owner-model.ts";
+import { UserModel } from "./user-model.ts";
 
 export interface RepoModel {
     id: number;
@@ -6,7 +6,7 @@ export interface RepoModel {
     name: string;
     full_name: string;
     private: boolean;
-    owner: OwnerModel;
+    owner: UserModel;
     html_url: string;
     description: string;
     fork: boolean;

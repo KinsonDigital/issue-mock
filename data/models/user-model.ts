@@ -1,4 +1,4 @@
-export interface OwnerModel {
+export interface UserModel {
     login: string;
     id: number;
     node_id: string;
