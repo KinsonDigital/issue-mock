@@ -1,6 +1,7 @@
 import { PullRequestClient, ProjectClient } from "https://deno.land/x/kd_clients@v1.0.0-preview.9/GitHubClients/mod.ts";
-import { IssuePayload } from "./data/issue-payload.ts";
+import { BasePayload } from "./data/payloads/base-payload.ts";
 import { Validator } from "./services/validator.ts";
+import { PayloadProcessor } from "./payload-processor.ts";
 
 const prMetaDataRegex = /<!--\s*closed-by-pr:\s*[1-9][0-9]*\s*-->/gm;
 
@@ -21,9 +22,10 @@ Deno.serve({ port: 3000 }, async (req) => {
         return new Response(validationResult.message, { status: 403 });
     }
 
-    const data = JSON.parse(jsonData);// as IssuePayload;
+    const data: BasePayload = JSON.parse(jsonData);
 
-    Deno.writeTextFileSync("current-payload.json", jsonData);
+    const processor = new PayloadProcessor();
+    processor.processPayload(data);
 
     return new Response("asdf", { status: 200 });
 
