@@ -1,0 +1,67 @@
+{
+  "action": "deleted",
+  "projects_v2_item": {
+    "id": 66162114,
+    "node_id": "PVTI_lADOAEsWvs4ABwtczgPxjcI",
+    "project_node_id": "PVT_kwDOAEsWvs4ABwtc",
+    "content_node_id": "I_kwDOL5rCXc6IdNNt", // This is the issue or pr item. Starts with 'I_' for issue and 'PR_' for PR
+    "content_type": "Issue", // This is used to determine if the item is an issue or a PR
+    "creator": {
+      "login": "CalvinWilkinson",
+      "id": 85414302,
+      "node_id": "MDQ6VXNlcjg1NDE0MzAy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85414302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CalvinWilkinson",
+      "html_url": "https://github.com/CalvinWilkinson",
+      "followers_url": "https://api.github.com/users/CalvinWilkinson/followers",
+      "following_url": "https://api.github.com/users/CalvinWilkinson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CalvinWilkinson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CalvinWilkinson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CalvinWilkinson/subscriptions",
+      "organizations_url": "https://api.github.com/users/CalvinWilkinson/orgs",
+      "repos_url": "https://api.github.com/users/CalvinWilkinson/repos",
+      "events_url": "https://api.github.com/users/CalvinWilkinson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CalvinWilkinson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2024-06-05T10:23:14Z",
+    "updated_at": "2024-06-05T10:23:17Z",
+    "archived_at": null
+  },
+  "organization": {
+    "login": "KinsonDigital",
+    "id": 4921022,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ5MjEwMjI=",
+    "url": "https://api.github.com/orgs/KinsonDigital",
+    "repos_url": "https://api.github.com/orgs/KinsonDigital/repos",
+    "events_url": "https://api.github.com/orgs/KinsonDigital/events",
+    "hooks_url": "https://api.github.com/orgs/KinsonDigital/hooks",
+    "issues_url": "https://api.github.com/orgs/KinsonDigital/issues",
+    "members_url": "https://api.github.com/orgs/KinsonDigital/members{/member}",
+    "public_members_url": "https://api.github.com/orgs/KinsonDigital/public_members{/member}",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4921022?v=4",
+    "description": "Organization Owner"
+  },
+  "sender": {
+    "login": "CalvinWilkinson",
+    "id": 85414302,
+    "node_id": "MDQ6VXNlcjg1NDE0MzAy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/85414302?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/CalvinWilkinson",
+    "html_url": "https://github.com/CalvinWilkinson",
+    "followers_url": "https://api.github.com/users/CalvinWilkinson/followers",
+    "following_url": "https://api.github.com/users/CalvinWilkinson/following{/other_user}",
+    "gists_url": "https://api.github.com/users/CalvinWilkinson/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/CalvinWilkinson/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/CalvinWilkinson/subscriptions",
+    "organizations_url": "https://api.github.com/users/CalvinWilkinson/orgs",
+    "repos_url": "https://api.github.com/users/CalvinWilkinson/repos",
+    "events_url": "https://api.github.com/users/CalvinWilkinson/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/CalvinWilkinson/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}

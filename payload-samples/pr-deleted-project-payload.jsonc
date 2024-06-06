@@ -1,11 +1,11 @@
 {
-  "action": "created",
+  "action": "deleted",
   "projects_v2_item": {
-    "id": 66165125,
-    "node_id": "PVTI_lADOAEsWvs4ABwtczgPxmYU",
+    "id": 66337211,
+    "node_id": "PVTI_lADOAEsWvs4ABwtczgP0Obs",
     "project_node_id": "PVT_kwDOAEsWvs4ABwtc",
-    "content_node_id": "I_kwDOL5rCXc6IdNNt",
-    "content_type": "Issue",
+    "content_node_id": "PR_kwDOL5rCXc5vFHRE", // This is the issue or pr item. Starts with 'I_' for issue and 'PR_' for PR
+    "content_type": "PullRequest", // This is used to determine if the item is an issue or a PR
     "creator": {
       "login": "CalvinWilkinson",
       "id": 85414302,
@@ -26,8 +26,8 @@
       "type": "User",
       "site_admin": false
     },
-    "created_at": "2024-06-05T10:26:22Z",
-    "updated_at": "2024-06-05T10:26:22Z",
+    "created_at": "2024-06-06T07:16:30Z",
+    "updated_at": "2024-06-06T07:16:31Z",
     "archived_at": null
   },
   "organization": {

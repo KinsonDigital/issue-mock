@@ -8,8 +8,6 @@ const prMetaDataRegex = /<!--\s*closed-by-pr:\s*[1-9][0-9]*\s*-->/gm;
 Deno.serve({ port: 3000 }, async (req) => {
     const url = new URL(req.url);
 
-    console.log("Received request");
-
     if (url.pathname !== "/webhook") {
         return new Response("Not Found", { status: 404 });
     }
